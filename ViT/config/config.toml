@@ -1,0 +1,22 @@
+[data]
+data_dir = "./data"
+vaild_ratio = 0.5
+
+[train]
+save_dir = './ckpt'
+batch_size = 128
+epochs = 100
+seed = 42
+grad_clip = 1.0
+lr = 3e-4
+weight_decay = 5e-2
+
+[model]
+img_size = 32
+patch_size = 4
+embed_dim = 192
+depth = 6
+num_heads = 3
+mlp_ratio = 4.0
+dropout = 0.1
+attn_dropout = 0.0

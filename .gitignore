@@ -9,3 +9,6 @@ DDPM/data/
 *.pt
 *.pth
 *.pkl
+
+# 기타 파일
+practice.ipynb
